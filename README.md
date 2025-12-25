@@ -97,38 +97,45 @@
 ## 📁 Project Structure
 
 ```
-├── pages/                    # Next.js pages
-│   ├── _app.js              # App wrapper with auth context
-│   ├── index.js             # Homepage
-│   ├── about.js             # About page
-│   ├── login.js             # User login
-│   ├── register.js          # User registration
-│   ├── talents_dashboard.js # Dashboard for talents
-│   ├── investors_dashboard.js # Dashboard for investors
-│   ├── features.js          # Features showcase
-│   ├── services.js          # Services page
-│   ├── contact.js           # Contact page
-│   ├── faq.js               # FAQ page
-│   ├── art.js               # Art category
-│   ├── music.js             # Music category
-│   └── ...
-├── public/                   # Static assets
+📦 Business-Project-Ignited
+├── 📂 pages/                    # Next.js pages (React components)
+│   ├── _app.js                 # App wrapper with auth context
+│   ├── index.js                # Homepage
+│   ├── about.js                # About page
+│   ├── login.js                # User login
+│   ├── register.js             # User registration
+│   ├── talents_dashboard.js    # Dashboard for talents
+│   ├── investors_dashboard.js  # Dashboard for investors
+│   ├── features.js             # Features showcase
+│   ├── services.js             # Services page
+│   ├── contact.js              # Contact page
+│   ├── faq.js                  # FAQ page
+│   ├── for-talents.js          # Talents landing page
+│   ├── for-investors.js        # Investors landing page
+│   ├── art.js                  # Art category
+│   └── music.js                # Music category
+├── 📂 public/                   # Static assets
 │   ├── assets/
-│   │   ├── css/             # Stylesheets
-│   │   ├── images/          # Images
-│   │   └── js/              # JavaScript files
-│   └── icons/               # Favicon and icons
-├── styles/                   # Global styles
+│   │   ├── css/                # Stylesheets
+│   │   ├── images/             # Images & graphics
+│   │   ├── js/                 # JavaScript files
+│   │   └── webfonts/           # Font files
+│   ├── icons/                  # Favicon and app icons
+│   └── styles/                 # Additional styles
+├── 📂 styles/                   # Global styles
 │   └── globals.css
-├── lib/                      # Utility libraries
+├── 📂 lib/                      # Utility libraries
 │   └── supabase.js
-├── setup/                    # Supabase setup scripts
+├── 📂 setup/                    # Supabase setup scripts
 │   ├── create_avatars_bucket.sql
 │   ├── avatars_bucket_policy.sql
-│   └── ...
-├── supabaseClient.js         # Supabase client configuration
-├── package.json
-└── README.md
+│   ├── storage_buckets_policy.sql
+│   └── storage_objects_policy.sql
+├── supabaseClient.js            # Supabase client configuration
+├── package.json                 # Project dependencies
+├── pnpm-lock.yaml              # Lock file
+├── LICENSE                      # MIT License
+└── README.md                    # This file
 ```
 
 ## 📸 Screenshots
